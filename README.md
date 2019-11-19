@@ -1,51 +1,78 @@
 <h1 align="center">
-  To-Do
+  todo app
 </h1>
 
-<p align="center">to-do-list</p>
+<p align="center">A simple to-do list application.</p>
 
 <p align="center">
-  <img src="screenshot/screenshot.png" alt="img">
+  <img src="screenshot/screenshot.png" alt="App screenshot">
 </p>
 
-<br>
+## 📦 Tech Stack
 
-## 📅 Sobre
+[check web in package.json](web/package.json)
 
-Aplicação desenvolvida com o conteúdo apresentado no curso de React da [cod3r.com.br](https://www.cod3r.com.br/)
+[check backend in package.json](backend/package.json)
 
-## 🌐 Tecnologias Usadas
-Foram usadas essas tecnologias:
+## 🔩 Installation
 
-- [React](https://pt-br.reactjs.org/)
-<br/>-
-- axios
-- bootstrap
-- font-awesome
-- react-router
-- webpack
+To install and run the project locally, follow these steps:
 
-*Foram usados outros Frameworks no projeto, mas esses são os principais.*
+### 1️⃣ Prerequisites
 
-## ***</>*** Como usar o código?
-1. Instale o **Npm** em seu computador
-1. Instale o **NodeJs** na versão >= 12.0
-1. Clone este repositório `git clone https://github.com/JhonatanBergmann/todo-app.git`
+- [**Node.js**](https://nodejs.org/) version v16.15.0
+- [**MongoDB**](https://www.mongodb.com/) running locally
 
-### 🗃 Data
-1. Acesse o Prompt de Comando e dê o comando `mongdodb` ou execute em `MongoDB\Server\4.4\bin\mongod.exe`
+### 2️⃣ Clone the repository
 
-### ⚙️ Backend
-1. Acesse a pasta *backend* e dê o comando `npm install`
-1. Acesse novamente a pasta *backend* e dê o comando `npm run production`
-<br/>*Para acessar o Monit do PM2 basta rodar o comando `.\node_modules\.bin\pm2 monit`
+```sh
+git clone https://github.com/jhonbergmann/todo-app.git
+cd todo-app
+```
 
-### 🌐 Web
-1. Acesse o diretório e dê o comando `npm install`
-1. Acesse a pasta *web* e dê o comando `npm run dev`
-1. Acesse em seu navegador a seguinte url `http://localhost:9090`
+## 🗃 Database
 
+1. Start MongoDB:
+   - Run `mongod` in the terminal **or**  
+   - Run `MongoDB\Server\4.4\bin\mongod.exe`
 
-## 📝 Licença
+## ⚙️ Backend
 
-Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
+1. Navigate to the backend directory and install dependencies:
+   ```sh
+   cd backend
+   npm install
+   ```
+
+2. Start the backend server:
+   ```sh
+   npm run production
+   ```
+
+3. To monitor the process with PM2:
+   ```sh
+   ./node_modules/.bin/pm2 monit
+   ```
+
+## 🌐 Web
+
+1. Navigate to the web directory and install dependencies:
+   ```sh
+   cd web
+   npm install
+   ```
+
+2. Start the development server:
+   ```sh
+   npm run dev
+   ```
+
+3. Open in your browser:
+   ```
+   http://localhost:9090
+   ```
+
+## 📝 License
+
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for more details.
+
