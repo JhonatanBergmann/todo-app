@@ -5,7 +5,7 @@
 <p align="center">A simple to-do list application.</p>
 
 <p align="center">
-  <img src="screenshot/screenshot.png" alt="App screenshot">
+  <img src="docs/screenshot.png" alt="App screenshot">
 </p>
 
 ## 📦 Tech Stack
