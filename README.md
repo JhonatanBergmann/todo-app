@@ -2,16 +2,28 @@
   To-Do
 </h1>
 
-<p align="center">To-Do List</p>
+<p align="center">to-do-list</p>
+
+<p align="center">
+  <img src="screenshot/screenshot.png" alt="img">
+</p>
 
 <br>
 
 ## 📅 Sobre
 
+Aplicação desenvolvida com o conteúdo apresentado no curso de React da [cod3r.com.br](https://www.cod3r.com.br/)
+
 ## 🌐 Tecnologias Usadas
 Foram usadas essa tecnologias:
 
 - [React](https://pt-br.reactjs.org/)
+<br/>-
+- axios
+- bootstrap
+- font-awesome
+- react-router
+- webpack
 
 *Foram usados outros Frameworks no projeto, mas esses são os principais.*
 
@@ -37,9 +49,3 @@ Foram usadas essa tecnologias:
 ## 📝 Licença
 
 Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
-
----
-
-<p align="center">
- Feito com 💜 by Jhonatan Bergmann
-</p>
