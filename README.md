@@ -15,7 +15,7 @@
 Aplicação desenvolvida com o conteúdo apresentado no curso de React da [cod3r.com.br](https://www.cod3r.com.br/)
 
 ## 🌐 Tecnologias Usadas
-Foram usadas essa tecnologias:
+Foram usadas essas tecnologias:
 
 - [React](https://pt-br.reactjs.org/)
 <br/>-
