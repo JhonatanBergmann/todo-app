@@ -26,7 +26,7 @@ Foram usadas essa tecnologias:
 ### ⚙️ Backend
 1. Acesse a pasta *backend* e dê o comando `npm install`
 1. Acesse novamente a pasta *backend* e dê o comando `npm run production`
-*Para acessar o Monit do PM2 basta rodar o comando `.\node_modules\.bin\pm2 monit`
+<br/>*Para acessar o Monit do PM2 basta rodar o comando `.\node_modules\.bin\pm2 monit`
 
 ### 🌐 Web
 1. Acesse o diretório e dê o comando `npm install`
