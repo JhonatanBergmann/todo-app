@@ -33,7 +33,7 @@ Foram usadas essas tecnologias:
 1. Clone este repositório `git clone https://github.com/JhonatanBergmann/todo-app.git`
 
 ### 🗃 Data
-1. Acesse o Prompt de Comando e dê o comando `mongdodb` ou execute em MongoDB\Server\4.4\bin\mongod.exe
+1. Acesse o Prompt de Comando e dê o comando `mongdodb` ou execute em `MongoDB\Server\4.4\bin\mongod.exe`
 
 ### ⚙️ Backend
 1. Acesse a pasta *backend* e dê o comando `npm install`
